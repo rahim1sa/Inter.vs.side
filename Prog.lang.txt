@@ -1,0 +1,24 @@
+1)Komputerler dijital masinlar olduqlarina gore sadece bir dilden, masin 
+dilinden basa dusurler.Masin dili sadece 0 ve 1lerden ve insanlarin basa 
+duse bilmeyeceyi kodlarda yazilir.Ona gore insanlar ozlerininbasa dusebileceyi 
+yuksek seviyeli dilde proqramlarini yazillar.Komputerler, yazilan bu proqramlari
+oz basadusebileceyi dile cevirmek ucun compilerden istifade edirler
+-Compiled proqramlar compiler terefinden 2lik kod sitemine cevirib masina oturur
+Ustun ceheti odur ki birdefe 2lik kod yarananda ikinci defe bu proqramin qaynaq 
+koduna tekrar baxmaz direkt olaraq run edir.Bu dillerin sureti bombadi ama 
+proqramlaya biraz back lazimdi
+-Interpreted dillerde yazilmis bir proqram ise her run prosesinde masin diline
+cevrilir ve sonra verilen isi yerine yetiri.Burada her runtime emeliyatinda
+iki prosesi(Cevirme ve baslatma) bas verir.BU dillerin sureti comlied dillere
+gore yavasdir 
+2)Server side language ve Client side
+-Client Side-Musteriler Girmek istedikleri web sehifenin adres bolmesine
+yazaraq bir melumat teleb edir.Server gelen telebi alir,istek hansi dilde 
+kodlasdirilib ona baxir ve ona gore cavab verir.Basqacur desek web sayti musteriye
+gonderir.Burada musteriden gelen istek HTML-de yazilibsa server, internet browserin
+sadece bu dilde basa dusduyunu bildiyi ucun,gelen isteyin oldugu web sayti musteriye
+gonderir.
+-Server Side-Gelen teleb .aspx veya .php ola biler.Server gelen isteye baxir.
+Gelen istek mis-anasehife.aspx-ise musterideki browser aspx bilmediyini ve eynisini
+gonderse bunu basadusub musteriye gondermeyeceyini bilir ve kodlari isledir
+web browserin bildiyi dil olan html'e cevirerek musteriye gonderir
